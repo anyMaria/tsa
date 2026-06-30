@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prisme - Résultats</title>
+
+  <link rel="stylesheet" href="https://use.typekit.net/nye3vwt.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="resultats.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="py-4 z-3">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a href="accueil.html" class="navbar-brand">
+          <img src="images/logo_bleu.png" alt="Prisme Logo" style="height: 27px; width: auto;">
+        </a>
+        <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ms-auto gap-4 align-items-center">
+            <a class="nav-link" href="SINFORMER.html">S'informer</a>
+            <a class="nav-link" href="eye-tracking.html">Eye-tracking</a>
+            <a class="nav-link active text-warning fw-bold" href="resultats.html">Résultats</a>
+            <a class="nav-link" aria-current="page" href="FAQ.html">FAQ</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+
+  <!-- Corps de page -->
+  <main class="results-main">
+
+    <section class="results-hero container">
+      <div class="results-hero-text">
+        <h1 class="results-title">Résultats à retenir</h1>
+        <p class="results-subtitle">
+          Des points clés pour mieux comprendre ce que l’eye-tracking peut montrer, et ce que cela signifie.
+        </p>
+      </div>
+
+      <div class="results-hero-illu" aria-hidden="true">
+      </div>
+    </section>
+
+
+    <!-- Fond décoratif -->
+    <div class="bg-wave-wrap" aria-hidden="true">
+      <img class="bg-wave" src="images/Resultats_visual.png" alt="Élement de décoration">
+    </div>
+
+    <section class="container results-grid-wrap">
+      <div class="results-grid" id="resultsGrid">
+
+        <article class="result-card" data-card="01">
+          <div class="card-head">
+            <div class="card-num">01</div>
+            <h2 class="card-title">Préférence pour les formes et motifs</h2>
+          </div>
+          <p class="card-desc">
+            Les enfants TSA montrent une préférence marquée pour les stimuli géométriques répétitifs par rapport aux stimuli
+            sociaux (visages), suggérant une appétence pour la prévisibilité.
+          </p>
+
+          <button class="card-select" type="button" aria-expanded="false" aria-controls="card01-content">
+            Pour expliquer à un enfant
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+
+          <div class="card-more" id="card01-content" hidden>
+            <p class="more-title">👀 C’est quoi l’eye-tracking ?</p>
+            <p>
+              L’eye-tracking est une technique qui permet de voir où une personne regarde sur une image, une vidéo ou un écran.
+              On peut savoir ce qui attire l’attention, ce qui est peu regardé, et combien de temps le regard reste sur un endroit.
+            </p>
+            <p>
+              Pour comprendre ça, on utilise parfois des “cartes de chaleur” : les zones très regardées sont souvent en rouge/jaune,
+              et les zones moins regardées en bleu/vert.
+            </p>
+          </div>
+        </article>
+
+        <article class="result-card" data-card="02">
+          <div class="card-head">
+            <div class="card-num">02</div>
+            <h2 class="card-title">Un regard qui suit un autre chemin</h2>
+          </div>
+          <p class="card-desc">
+            Quand une scène contient beaucoup d’informations, le regard peut suivre un autre chemin : certains détails prennent
+            plus de place que d'autres.
+          </p>
+
+          <button class="card-select" type="button" aria-expanded="false" aria-controls="card02-content">
+            Pour expliquer à un enfant
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+
+          <div class="card-more" id="card02-content" hidden>
+            <p class="more-title">🧠 Eye-tracking et autisme</p>
+            <p>
+              Chaque personne regarde le monde à sa façon. Chez certaines personnes autistes, le regard peut se poser différemment.
+              Par exemple : les visages attirent parfois moins l’attention, certains détails précis sont plus regardés, et le regard
+              peut suivre un autre chemin.
+            </p>
+            <p class="more-note">
+              Important : l’eye-tracking ne sert pas à diagnostiquer quelqu'un de TSA ou non. Il sert à mieux comprendre comment
+              chacun perçoit ce qu’il voit.
+            </p>
+          </div>
+        </article>
+
+        <article class="result-card" data-card="03">
+          <div class="card-head">
+            <div class="card-num">03</div>
+            <h2 class="card-title">Comprendre l’autisme (TSA)</h2>
+          </div>
+          <p class="card-desc">
+            Le TSA (autisme) fait partie des façons différentes dont le cerveau peut fonctionner. Chaque personne est différente :
+            on parle de “spectre”.
+          </p>
+
+          <button class="card-select" type="button" aria-expanded="false" aria-controls="card03-content">
+            Pour expliquer à un enfant
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+
+          <div class="card-more" id="card03-content" hidden>
+            <p class="more-title">🌈 C’est quoi l’autisme (TSA) ?</p>
+            <p>
+              Une personne autiste peut communiquer autrement, aimer les routines, et être sensible au bruit, à la lumière ou au toucher.
+              Il n’y a pas un seul type d’autisme : chaque personne est différente, c’est pour ça qu’on parle de spectre.
+            </p>
+          </div>
+        </article>
+
+        <article class="result-card" data-card="04">
+          <div class="card-head">
+            <div class="card-num">04</div>
+            <h2 class="card-title">Repérer les premiers signes</h2>
+          </div>
+          <p class="card-desc">
+            Des signaux peuvent être observés tôt, mais seuls des professionnels peuvent poser un diagnostic.
+          </p>
+
+          <button class="card-select" type="button" aria-expanded="false" aria-controls="card04-content">
+            Pour expliquer à un enfant
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+
+          <div class="card-more" id="card04-content" hidden>
+            <p class="more-title">🔎 Les premiers signes (chez les enfants)</p>
+            <p>
+              Chez certains enfants, on peut observer : peu de regard vers les autres, peu de gestes pour montrer/demander,
+              des gestes répétés (balancer les mains, tourner des objets), ou une forte attirance pour certaines choses.
+            </p>
+            <p class="more-note">
+              Ces signes ne veulent pas dire automatiquement qu’un enfant est diagnostiqué d'autisme. Seuls des professionnels peuvent le dire.
+            </p>
+          </div>
+        </article>
+
+        <article class="result-card" data-card="05">
+          <div class="card-head">
+            <div class="card-num">05</div>
+            <h2 class="card-title">Apprendre autrement à l’école</h2>
+          </div>
+          <p class="card-desc">
+            À l’école, les besoins peuvent être différents : consignes très claires, support visuel, environnement calme.
+          </p>
+
+          <button class="card-select" type="button" aria-expanded="false" aria-controls="card05-content">
+            Pour expliquer à un enfant
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+
+          <div class="card-more" id="card05-content" hidden>
+            <p class="more-title">🎒 L’autisme et l’école</p>
+            <p>
+              Les enfants autistes peuvent apprendre, mais pas toujours de la même façon. Ils peuvent avoir besoin de consignes très claires,
+              mieux comprendre avec des images, être gênés par le bruit/la lumière, et aimer quand tout est bien organisé.
+              Avec des adaptations, l’apprentissage peut devenir plus facile.
+            </p>
+          </div>
+        </article>
+
+        <article class="result-card" data-card="06">
+          <div class="card-head">
+            <div class="card-num">06</div>
+            <h2 class="card-title">Le quotidien et l’autonomie</h2>
+          </div>
+          <p class="card-desc">
+            Dans la vie quotidienne, les changements imprévus, le bruit, ou les interactions peuvent être plus difficiles.
+            Avec des repères et de la compréhension, l’autonomie progresse.
+          </p>
+
+          <button class="card-select" type="button" aria-expanded="false" aria-controls="card06-content">
+            Pour expliquer à un enfant
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
+
+          <div class="card-more" id="card06-content" hidden>
+            <p class="more-title">🏠 L’autisme dans la vie de tous les jours</p>
+            <p>
+              Certaines choses peuvent être compliquées : les changements imprévus, les endroits très bruyants, ou les relations avec les autres.
+              Mais avec des routines, des supports visuels et de la compréhension, les personnes autistes peuvent gagner en autonomie et se sentir mieux.
+            </p>
+            <p class="more-title">🤝 Pourquoi comprendre, c’est important</p>
+            <p>
+              Comprendre l’autisme, c’est mieux inclure, mieux aider et respecter les différences.
+              L’eye-tracking est un outil parmi d’autres pour mieux comprendre sans juger.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="container share-block">
+      <div class="share-title-wrap">
+        <span class="share-line"></span>
+        <h2 class="share-title">Besoin de partager ?</h2>
+        <span class="share-line"></span>
+      </div>
+      <p class="share-desc">
+        L’équipe de Prisme vous a préparé un fichier PDF pour pouvoir partager ces informations à vos proches, élèves et amis.
+      </p>
+      <a class="btn btn-yellow" href="#" download>Télécharger le pdf</a>
+    </section>
+
+    <section class="container question-block">
+      <div class="question-title-wrap">
+        <h2 class="question-title">Une question ?</h2>
+        <span class="question-line"></span>
+      </div>
+      <div class="question-actions">
+        <a href="faq.html" class="pill-btn">FAQ <span>→</span></a>
+        <a href="FAQ.html" class="pill-btn">Ressources <span>→</span></a>
+        <a href="FAQ.html" class="pill-btn">Contact <span>→</span></a>
+      </div>
+    </section>
+
+  </main>
+    <div class="footer-wrapper">
+    <img src="images/footer_wave.png" class="footer-wave img-fluid" alt="Wave">
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="images/logo_blanc.png" alt="Prisme Logo White">
+                    <p class="footer-desc">Voyez les choses autrement.</p>
+                </div>
+                
+                <div class="footer-nav-group">
+                    <div class="footer-nav">
+                        <h4>Accueil</h4>
+                        <ul>
+                            <li><a href="SINFORMER.html">TSA</a></li>
+                            <li><a href="eye-tracking.html">Eye-tracking</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="RESULTATS.html">Ressources</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>Privacy Policy</span>
+                <span>Terms</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+  <script>
+    document.querySelectorAll('.card-select').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('aria-controls');
+        const panel = document.getElementById(id);
+        const isOpen = btn.getAttribute('aria-expanded') === 'true';
+
+        btn.setAttribute('aria-expanded', String(!isOpen));
+        panel.hidden = isOpen;
+
+        if (!isOpen) {
+          const y = btn.getBoundingClientRect().top + window.scrollY - 120;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+</html>

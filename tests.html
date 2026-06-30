@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisme - Eye Tracking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/nye3vwt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="py-4 position-relative" style="z-index: 10;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a href="accueil.html" class="navbar-brand">
+                    <img src="images/logo_bleu.png" alt="Prisme Logo" style="height: 27px; width: auto;">
+                </a>
+                <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto gap-4 align-items-center">
+                        <a class="nav-link" href="tsa.html">S'informer</a>
+                        <a class="nav-link" href="eye-tracking.html">Eye-tracking</a>
+                        <a class="nav-link" href="resultats.html">Résultats</a>
+                        <a class="nav-link active text-warning fw-bold" aria-current="page" href="FAQ.html">FAQ</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section class="hero-section position-relative text-center" style="padding-top: 110px;">
+            <div class="container position-relative py-5" style="z-index: 2;">
+                <h1 class="display-4 fw-bold text-primary mb-2">Tests étudiants</h1>
+                <p class="text-muted mx-auto" style="max-width: 600px; font-size: 0.9rem;">
+                    Regardez les vidéos en dessous avec des vraies personnes qui font de l'eye tracking.
+                </p>
+            </div>
+        </section>
+
+                <main>
+                    <section class="py-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <div class="video-card">
+                                        <video controls>
+                                            <source src="images/ARTHUR.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="video-card">
+                                        <video controls>
+                                            <source src="images/HERIXO.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="video-card">
+                                        <video controls>
+                                            <source src="images/YANIS.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+
+    <div class="footer-wrapper">
+    <img src="images/footer_wave.png" class="footer-wave img-fluid" alt="Wave">
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="images/logo_blanc.png" alt="Prisme Logo White">
+                    <p class="footer-desc">Voyez les choses autrement.</p>
+                </div>
+                
+                <div class="footer-nav-group">
+                    <div class="footer-nav">
+                        <h4>Accueil</h4>
+                        <ul>
+                            <li><a href="TSA.html">TSA</a></li>
+                            <li><a href="eye-tracking.html">Eye-tracking</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="RESULTATS.html">Ressources</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>Privacy Policy</span>
+                <span>Terms</span>
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
