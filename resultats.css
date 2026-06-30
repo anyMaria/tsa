@@ -296,6 +296,28 @@ h1,h2,h3,h4{
 }
 .pill-btn:hover{ opacity:.9; }
 
+/* Une question — styles partagés avec accueil */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-pill-nav {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.btn-pill-nav:hover {
+    background: var(--primary);
+    color: white;
+}
+
 /* Responsive */
 @media (max-width: 992px){
   .results-hero{ flex-direction:column; align-items:flex-start; }
