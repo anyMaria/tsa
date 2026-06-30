@@ -297,6 +297,14 @@ h1,h2,h3,h4{
 .pill-btn:hover{ opacity:.9; }
 
 /* Une question — styles partagés avec accueil */
+.line {
+    height: 13px;
+    width: 70%;
+    margin-right: -20%;
+    border-radius: 999px;
+    overflow-x: hidden;
+    background-color: var(--primary);
+}
 .flex-center {
     display: flex;
     justify-content: center;
