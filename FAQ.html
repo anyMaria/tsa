@@ -14,27 +14,26 @@
 <body>
 
     <!-- NAV MENU -->
-<header class="py-4 z-3">
+  <header class="py-4" style="position: relative; z-index: 10;">
     <div class="container">
-        <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg">
         <a href="accueil.html" class="navbar-brand">
-            <img src="images/logo_bleu.png" alt="Prisme Logo" style="height: 27px; width: auto;">
+          <img src="images/logo_bleu.png" alt="Prisme Logo" style="height: 27px; width: auto;">
         </a>
         <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="navbar-nav ms-auto gap-4 align-items-center">
-            <a class="nav-link" href="tsa.html">S'informer</a>
+            <a class="nav-link" href="SINFORMER.html">S'informer</a>
             <a class="nav-link" href="eye-tracking.html">Eye-tracking</a>
             <a class="nav-link" href="resultats.html">Résultats</a>
-            <a class="nav-link active text-warning fw-bold" aria-current="page" href="FAQ.html">FAQ</a>
+            <a class="nav-link active text-warning fw-bold" href="FAQ.html">FAQ</a>
           </div>
         </div>
-    </nav>
-  </div>
-    
-</header>
+      </nav>
+    </div>
+  </header>
     
         <div class="img-fluid position-relative w-100 h-100 overflow-hidden z-n1"  style="margin-top: -20%;">
     <img src="images/FAQ_img.png" class="w-100 h-100 object-fit-cover hero" style="object-position: 50% 80% ;" alt="Hero">
@@ -237,37 +236,40 @@
 
 
 
-    <div class="footer-wrapper">
-        <img src="images/footer_wave.png" class="footer-wave img-fluid" alt="Wave">
-        <footer class="site-footer">
-            <div class="container footer-cols row">
-                <div class="footer-col col-12 col-md-6 d-flex flex-column align-items-start">
-                    <div class="footer-logo">
-                        <img src="images/logo_blanc.png" alt="Prisme Logo White" class="img-fluid">
-                    </div>
-                    <p class="footer-desc">Voyez les choses autrement.</p>
-                </div>
-                <div class="footer-col footer-menu col-6 col-md-3">
-                    <h4>Accueil</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="TSA.html">TSA</a></li>
-                        <li><a href="eye-tracking.html">Eye-tracking</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col footer-menu col-6 col-md-3">
-                    <h4>Contact</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="FAQ.html">FAQ</a></li>
-                        <li><a href="RESULTATS.html">Ressources</a></li>
-                    </ul>
-                </div>
+  <div class="footer-wrapper">
+    <img src="images/footer_wave.png" class="footer-wave img-fluid" alt="Wave">
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="images/logo_blanc.png" alt="Prisme Logo White">
+            <p class="footer-desc">Voyez les choses autrement.</p>
+          </div>
+          <div class="footer-nav-group">
+            <div class="footer-nav">
+              <h4>Pages</h4>
+              <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="SINFORMER.html">S'informer</a></li>
+                <li><a href="eye-tracking.html">Eye-tracking</a></li>
+              </ul>
             </div>
-            <div class="container footer-bottom text-center">
-                <span>Privacy Policy</span>
-                <span>Terms</span>
+            <div class="footer-nav">
+              <h4>Questions</h4>
+              <ul>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="resultats.html">Ressources</a></li>
+              </ul>
             </div>
-        </footer>
-    </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>Privacy Policy</span>
+          <span>Terms</span>
+        </div>
+      </div>
+    </footer>
+  </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

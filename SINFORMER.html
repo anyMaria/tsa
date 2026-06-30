@@ -14,28 +14,27 @@
 <body>
 
   <!-- HEADER -->
-  <header class="site-header">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container nav-flex">
-        <a class="navbar-brand logo" href="accueil.html" aria-label="Accueil">
-          <img class="logo-texte" src="images/logo_bleu.png" alt="Prisme">
+  <header class="py-4" style="position: relative; z-index: 10;">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a href="accueil.html" class="navbar-brand">
+          <img src="images/logo_bleu.png" alt="Prisme Logo" style="height: 27px; width: auto;">
         </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
-          aria-controls="mainNav" aria-expanded="false" aria-label="Ouvrir le menu">
+        <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav ms-auto gap-3 align-items-center">
-            <li class="nav-item"><a class="nav-link active text-warning fw-bold" href="SINFORMER.html">S'informer</a></li>
-            <li class="nav-item"><a class="nav-link" href="eye-tracking.html">Eye-tracking</a></li>
-            <li class="nav-item"><a class="nav-link" href="resultats.html">Résultats</a></li>
-            <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQ</a></li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ms-auto gap-4 align-items-center">
+            <a class="nav-link active text-warning fw-bold" href="SINFORMER.html">S'informer</a>
+            <a class="nav-link" href="eye-tracking.html">Eye-tracking</a>
+            <a class="nav-link" href="resultats.html">Résultats</a>
+            <a class="nav-link" href="FAQ.html">FAQ</a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <!-- TITRE HEADER -->
     <div class="titreheader">
@@ -152,31 +151,34 @@
   <div class="footer-wrapper">
     <img src="images/footer_wave.png" class="footer-wave img-fluid" alt="Wave">
     <footer class="site-footer">
-      <div class="container footer-cols row">
-        <div class="footer-col col-12 col-md-6 d-flex flex-column align-items-start">
-          <div class="footer-logo">
-            <img src="images/logo_blanc.png" alt="Prisme Logo White" class="img-fluid">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="images/logo_blanc.png" alt="Prisme Logo White">
+            <p class="footer-desc">Voyez les choses autrement.</p>
           </div>
-          <p class="footer-desc">Voyez les choses autrement.</p>
+          <div class="footer-nav-group">
+            <div class="footer-nav">
+              <h4>Pages</h4>
+              <ul>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="SINFORMER.html">S'informer</a></li>
+                <li><a href="eye-tracking.html">Eye-tracking</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav">
+              <h4>Questions</h4>
+              <ul>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="resultats.html">Ressources</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="footer-col footer-menu col-6 col-md-3">
-          <h4>Accueil</h4>
-          <ul class="list-unstyled">
-            <li><a href="SINFORMER.html">S'informer</a></li>
-            <li><a href="eye-tracking.html">Eye-tracking</a></li>
-          </ul>
+        <div class="footer-bottom">
+          <span>Privacy Policy</span>
+          <span>Terms</span>
         </div>
-        <div class="footer-col footer-menu col-6 col-md-3">
-          <h4>Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="resultats.html">Résultats</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="container footer-bottom text-center">
-        <span>Privacy Policy</span>
-        <span>Terms</span>
       </div>
     </footer>
   </div>
